@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <html>
 <head> 
-<!--#include file="connect_db.asp"--> 
+<!--#include file="../utf/connect_db.asp"--> 
 <!--#include file="../utf/inc_allfunction.asp"--> 
 <!--#include file="../utf/inc_checkprice.asp"--> 
 <%
