@@ -7,7 +7,7 @@ If  Session("userid") = "" Then
 response.Redirect("login.asp") 
 End If
 %>
-<!--#include file="../connect_db.asp"--> 
+<!--#include file="connect_db.asp"--> 
 <!--#include file="../utf/inc_allfunction.asp"--> 
 <!--#include file="../utf/inc_checkprice.asp"--> 
 <!--#include file="../utf/inc_booksale.asp"-->   
