@@ -1,0 +1,50 @@
+#cssMenu{
+ width:762px;
+ position:relative;
+ margin:0 auto;
+ padding:0;
+}
+#cssMenu ul{
+ display:block;
+ width:732px;
+ height:36px;
+ position:absolute;
+ top:0;
+ right:0;
+ margin:11px 0 0;
+ padding:0 29px 0 0;
+ border-bottom:5px solid #AEAEAE;
+}
+#cssMenu ul li{
+ float:right;
+ font:12px/36px “Trebuchet MS”,Arial, Helvetica, sans-serif;
+ font-weight:bold;
+}
+#cssMenu ul li a{
+ width:74px;
+ height:36px;
+ display:block;
+ padding:0;
+ color:#555;
+ background:#fff;
+ text-decoration:none;
+ text-align:center;
+ margin:0 1px 0 0;
+ top:0px;
+ left:0px;
+}
+#cssMenu ul li a:hover{
+ width:74px; height:36px;
+ text-decoration:none;
+ background:url(images/button.gif) no-repeat 0 0 #AEAEAE;
+ color:#fff;
+}
+#cssMenu ul li.active{
+ width:74px;
+ display:block;
+ height:36px;
+ background:url(images/button.gif) no-repeat 0 0 #AEAEAE;
+ color:#fff;
+ text-align:center;
+ margin:0 1px 0 0;
+}

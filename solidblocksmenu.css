@@ -1,0 +1,78 @@
+.solidblockmenu ul{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px Arial;
+width: 100%;
+border: 0px solid #FFF;
+border-width: 0px 0;
+background: white url(media/blockdefault.gif) center center repeat-x;
+}
+
+
+.searchboxtap {
+background: white url(media/searchboxtap.gif) center center repeat-x;
+height:48px;
+border: 0px solid #FFF;
+border-width: 0px 0;
+margin: 0;
+padding: 0;
+}
+
+
+.tab_clicked {
+color: white;
+background: transparent url(media/blockactive.gif) center center repeat-x;
+}
+
+.tab_unclick {
+color: white;
+background: transparent url(media/searchboxtap.gif) center center repeat-x;
+}
+
+
+
+
+
+.solidblockmenu li{
+display: inline;
+}
+
+
+.solidblockmenu li a{
+float: left;
+color: white;
+padding: 0px 0px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+
+
+
+
+.tabcontainer{
+clear: left;
+width:95%; /*width of 2nd level sub menus*/
+height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
+}
+
+*:first-child+html .ieclass{ /*IE7 hack to remove gap between menu and sub contents*/
+margin-top: -1em;
+}
+
+* html .ieclass{ /*IE6 and below hack to remove gap between menu and sub contents*/
+margin-top: -1em;
+}
+
+.tabcontent{
+display:none;
+}
+
+
+.text{font-size: 12px; color : #000; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text:link {font-size: 12px; color : #000; font-weight : normal; text-decoration:none; font-family:Tahoma;}
+.text:visited{font-size: 12px; color : #BE2E93; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text:link:hover{font-size: 12px; color : #BE2E93; font-weight : normal; text-decoration:underline; font-family: Tahoma;}
+.text:active{font-size: 12px; color : #BE2E93; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+
+
