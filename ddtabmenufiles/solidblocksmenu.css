@@ -1,0 +1,111 @@
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.solidblockmenu ul{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 16px Tahoma;
+width: 100%;
+border: 0px solid #FFF;
+border-width: 0px 0;
+background: white url(media/blockdefault.gif) center center repeat-x;*/
+}
+
+.solidblockmenu li{
+display: inline;
+}
+
+
+.solidblockmenu li a{
+float: left;
+color: white;
+padding: 7px 7px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+
+
+
+
+
+.searchboxtap {
+background: white url(media/searchboxtap.gif) center center repeat-x;
+height:48px;
+border: 0px solid #FFF;
+border-width: 0px 0;
+margin: 0;
+padding: 0;
+}
+
+
+.tab_clicked {
+color: white;
+background: transparent url(media/blockactive.gif) center center repeat-x;
+}
+
+.tab_unclick {
+color: white;
+background: transparent url(media/searchboxtap.gif) center center repeat-x;
+}
+
+
+
+
+
+
+
+.tabcontainer{
+clear: left;
+width:95%; /*width of 2nd level sub menus*/
+height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
+}
+
+*:first-child+html .ieclass{ /*IE7 hack to remove gap between menu and sub contents*/
+margin-top: -1em;
+}
+
+* html .ieclass{ /*IE6 and below hack to remove gap between menu and sub contents*/
+margin-top: -1em;
+}
+
+.tabcontent{
+display:none;
+}
+
+
+.text{font-size: 16px; color : #cd5353; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text:link {font-size: 16px; color : #000; font-weight : normal; text-decoration:none; font-family:Tahoma;}
+.text:visited{font-size: 16px; color : #BE2E93; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text:link:hover{font-size: 16px; color : #BE2E93; font-weight : normal; text-decoration:underline; font-family: Tahoma;}
+.text:active{font-size: 16px; color : #BE2E93; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+
+.textdetail{font-size: 13px; color : #000000; font-weight : normal; text-decoration:none; font-family:Arial;}
+
+
+.text_header{font-size: 20px; color:#D05E5E; font-weight : bold; text-decoration:none; font-family: Tahoma;}
+.text_header:link {font-size: 20px; color : #D05E5E; font-weight : bold; text-decoration:none; font-family:Tahoma;}
+.text_header:visited{font-size: 20px; color : #D05E5E; font-weight : bold; text-decoration:none; font-family: Tahoma;}
+.text_header:link:hover{font-size: 20px; color : #D05E5E; font-weight : bold; text-decoration:underline; font-family: Tahoma;}
+.text_header:active{font-size: 20px; color : #D05E5E; font-weight : bold; text-decoration:none; font-family: Tahoma;}
+
+
+.text_subtitle{font-size: 11px; color : #333333; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text_subtitle:link {font-size: 11px; color : #333333; font-weight : normal; text-decoration:none; font-family:Tahoma;}
+.text_subtitle:visited{font-size: 11px; color : #333333; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text_subtitle:link:hover{font-size: 11px; color : #333333; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text_subtitle:active{font-size: 11px; color : #333333; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+
+
+.text_normal{font-size: 14px; color:#333333; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text_normal:link {font-size: 14px; color : #D05E5E; font-weight : normal; text-decoration:underline; font-family:Tahoma;}
+.text_normal:visited{font-size: 14px; color : #D05E5E; font-weight : normal; text-decoration:underline; font-family: Tahoma;}
+.text_normal:link:hover{font-size: 14px; color : #D05E5E; font-weight : normal; text-decoration:none; font-family: Tahoma;}
+.text_normal:active{font-size: 14px; color : #D05E5E; font-weight : normal; text-decoration:underline; font-family: Tahoma;}
+
+
